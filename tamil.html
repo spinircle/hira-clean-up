@@ -17,7 +17,7 @@
 	  <link rel="stylesheet" type="text/css" href="main-index-assets/js/script.js">
 	  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	  <link rel="stylesheet" type="text/css" href="main-index-assets/css/jquery.fancybox.css">
-	  <!-- <script src="main-index-assets/js/script.js"></script> -->
+	  <script src="main-index-assets/js/tamil.script.js"></script>
 </head>
 <body>
 
@@ -158,24 +158,105 @@
 				
 				<div class="col-md-6">
 					<ul class="social_media">
-	                       <li> <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span><a style="color: #fff;" href="#">விசாரணை</a></span></li>
+							<li><a style="color: #fff !important;" href="#enquire-now" target="_blank" class="enquire-now"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>விசாரணை</a></li>
+	                       <!-- <li> <i class="fa fa-pencil-square-o" aria-hidden="true"></i><span><a style="color: #fff;" href="#">விசாரணை</a></span></li> -->
 	                        <li><a href="https://www.facebook.com/HiranandaniParksOragadam/" target="_blank"><i class="fa fa-facebook"></i></a></li>
 	                        <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
 	                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 	                        <li><a href="https://www.youtube.com/channel/UCkLuy5XpqQlAIaFvJGgrOOA" target="_blank"><i class="fa fa-youtube"></i></a></li>
+	                        <div id="enquire-now" style="display:none;">
+                        <script src="//trkr.scdn1.secure.raxcdn.com/t/forms/5657f9703bb2f89d12000215/5657f9733bb2f89d12000256.js" data-form-id="5657f9733bb2f89d12000256"></script>
+                     </div>
 	                 </ul>
 				</div>
 			</div>
 		</div>
 </footer>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="main-index-assets/js/jquery.fancy-boxmedia.js"></script>
+<script src="main-index-assets/js/jquery.fancybox-media.js"></script>
 <!-- <div class="scroll-top-wrapper ">
   <span class="scroll-top-inner">
     <i class="fa fa-2x fa-arrow-circle-up"></i>
   </span>
 </div> -->
+<script>
+         $(document).ready(function () {
 
+
+
+             $("body").delay(100).animate({ "opacity": "1" }, 300);
+         });
+
+
+
+         jQuery(document).ready(function ($) {
+             $(".fancybox").fancybox({
+                 maxWidth: 600,
+                 maxHeight: 404,
+                 padding: 5,
+                 fitToView: false,
+                 width: '80%',
+                 height: 'auto',
+                 autoSize: false,
+                 closeClick: false,
+                 openEffect: 'none',
+                 closeEffect: 'none',
+                 type: "iframe" // <-- whatever content : image, inline, swf, etc.
+             }).trigger("click");
+         }); // ready
+         
+         $(document).ready(function () {
+             $(".enquire-now").fancybox({
+                 maxWidth: 500,
+                 maxHeight: 540,
+                 fitToView: false,
+                 width: '70%',
+                 height: '70%',
+                 autoSize: false,
+                 closeClick: false,
+                 closeEffect: 'fade',
+                 closeEffect: 'fade'
+             });
+         });
+         
+
+         $(".fancybox").fancybox({
+        openEffect: 'none',
+        closeEffect: 'none',
+        loop: false
+    });
+
+    
+    $('.fancybox-media').fancybox({
+        openEffect: 'fade',
+        openSpeed: '500',
+        closeEffect: 'elastic',
+        closeSpeed: '800',
+        width: '600',
+        height: '450',
+        padding: 5,
+        helpers: {
+            overlay: {
+                locked: false // try changing to true and scrolling around the page
+            },
+            media: {}
+        }
+    });
+
+
+    $(".fancyzoom").fancybox({
+        width: '800',
+        height: 'auto',
+        fitToView: true,
+        autoSize: false,
+        closeClick: false,
+        openEffect: 'none',
+        closeEffect: 'none'
+    });
+      </script>
+      
 
 </body>
 </html>
