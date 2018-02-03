@@ -430,6 +430,42 @@ ul.social_media li a .fa {
     content: '';
     clear: both;
 }
+.enquire-now{
+    background: #f4ad41;
+    position: fixed;
+    top: 50%;
+    left: -42px;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    padding: 10px;
+    z-index: 100;
+    text-transform: uppercase;
+
+}
+/*.enquire-now::after{
+    content: "Call us";
+    background: red;
+    color: #fff;
+    position: fixed;
+}*/
+.call-us{
+    padding: 13px;
+    background: #f4ad41;
+    position: fixed;
+    top: 37%;
+    cursor: pointer;
+}
+.call-us i{
+    cursor: pointer;
+}
+.call-us span{
+    display: none;
+}
+.call-us span a{
+    color: #fff;
+    padding-left: 10px;
+}
 @media only screen and (max-width: 1220px) {
     .nav-header{
         margin-top: 75px;
@@ -449,6 +485,7 @@ ul.social_media li a .fa {
     .hamburger{
         display: block;
     }
+    
 }
 @media only screen and (max-width: 768px) {
     .navbar-brand img{
@@ -483,6 +520,13 @@ ul.social_media li a .fa {
           right: 0;
           margin: 50px 0;
          }
+         .enquire-now{
+            right: -38px;
+            left: unset;
+        }
+        .call-us{
+            right: 0;
+        }
 }
 
 
