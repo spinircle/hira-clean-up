@@ -18,18 +18,19 @@ body{
 }
 
 .navbar-default{
-	background-color: #f4ad33;
-	border-color: #f4ad33;
+	background-color: #000;
+	border-color: #000;
 	
 }
 .header-section{
 	position: fixed;
     top: 0;
     left: 0;
-    background: #f4ad33;
+    background: #000;
     height: 100px;
     width: 100%;
     z-index: 99!important;
+    margin-top: 85px;
 }
 
 ::selection {
@@ -96,7 +97,7 @@ body{
 
 .navbar-right  li a{
     color: #333;
-    font-weight: 900;
+    /*font-weight: 900;*/
 }
 
 /* Slider CSS */
