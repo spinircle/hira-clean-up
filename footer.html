@@ -9,8 +9,8 @@
 				<div class="col-md-6">
 					
 					<ul class="social_media">
-	                       <li><a style="color: #fff !important;" href="#enquire-now" target="_blank" class="enquire-now"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Enquire-now</a></li>
-	                        <!-- <li><a href="https://www.facebook.com/HiranandaniParksOragadam/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+
+	                        <li><a href="https://www.facebook.com/HiranandaniParksOragadam/" target="_blank"><i class="fa fa-facebook"></i></a></li>
 	                        <li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
 	                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 	                        <li><a href="https://www.youtube.com/channel/UCkLuy5XpqQlAIaFvJGgrOOA" target="_blank"><i class="fa fa-youtube"></i></a></li> -->
@@ -22,7 +22,13 @@
 			</div>
 		</div>
 </footer>
-
+<a style="color: #fff !important;" href="#enquire-now" target="_blank" class="enquire-now">Enquire-Now</a>
+<div class="call-us">
+    <i class="glyphicon glyphicon-earphone"></i>
+    <span>
+        <a href="tel:044 3301 2879">044 3301 2879</a>
+    </span>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="main-index-assets/js/jquery.fancy-boxmedia.js"></script>
 <script src="main-index-assets/js/jquery.fancybox-media.js"></script>
@@ -30,6 +36,12 @@
 <script>
          $(document).ready(function () {
 
+            // call us script
+
+            $(".call-us").click(function(){
+                $(".call-us span").fadeToggle();
+            });
+            
 
 
              $("body").delay(100).animate({ "opacity": "1" }, 300);
