@@ -37,6 +37,7 @@ body{
   padding:15px;
   z-index: 100;
   background: #ffffff57;
+  transition: 0.4s cubic-bezier(0.67, 0.35, 0, 0.24);
 }
 .overlay{
   background: #000;
