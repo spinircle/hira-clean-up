@@ -307,6 +307,8 @@ body{
 	display: inline-block !important;
 	font-size: 20px;
 	padding: 0px 10px 0px 10px;
+    margin-left: 40px;
+    padding-top: 5px;
 }
 .Enquire-now span a{
 	font-size: 25px ;
