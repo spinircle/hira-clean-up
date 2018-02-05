@@ -347,7 +347,7 @@ body{
 
 .social_media li {
 	display: inline-block !important;
-	font-size: 20px;
+	font-size: 15px;
 	padding: 0px 10px 0px 10px;
     margin-left: 40px;
     padding-top: 5px;
@@ -573,6 +573,14 @@ ul.social_media li a .fa {
         .call-us{
             right: 0;
         }
+     .nav-header li a {
+    color: #000;
+    padding: 15px 10px;
+    border: none;
+    }
+    .header-section{
+        background-color: #fff !important;
+    }
 }
 
 
