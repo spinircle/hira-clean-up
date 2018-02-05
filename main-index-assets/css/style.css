@@ -4,7 +4,7 @@
 
 }
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: Trajan pro;
 
     /*background-image:  url(../images/bg-about.jpg) no-repeat top center;*/
 
@@ -453,7 +453,7 @@ ul.social_media li a .fa {
 }
 .nav-header li{
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 14px;
 }
 .nav-header li a{
     color: #fff;
@@ -538,6 +538,11 @@ ul.social_media li a .fa {
     .hamburger{
         display: block;
     }
+    .nav-header li a {
+    color: #fff;
+    padding: 15px 10px;
+    border: none;
+    }
     
 }
 @media only screen and (max-width: 768px) {
@@ -588,7 +593,9 @@ ul.social_media li a .fa {
     .header-section{
         background-color: #000 !important;
     }
-    
+    .banner{
+        margin-top: 95px;
+    }
 }
 
 
