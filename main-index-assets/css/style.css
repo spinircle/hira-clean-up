@@ -16,7 +16,9 @@ body{
     margin-right: auto;
     margin-left: auto;
 }
-
+#hostname img {
+  background: #ffffffd6;
+}
 .navbar-default{
 	background-color: #fff;
 	border-color: #fff;
@@ -36,7 +38,7 @@ body{
   top: 0;
   padding:15px;
   z-index: 100;
-  background: #ffffff57;
+  background: #0101016e;
   transition: 0.4s cubic-bezier(0.67, 0.35, 0, 0.24);
 }
 .overlay{
@@ -445,17 +447,18 @@ ul.social_media li a .fa {
     list-style: none;
     padding:0;
     text-align: center;
-    margin: 0;
+    margin: 0 25px;
     line-height: 65px;
     display: inline-block;
 }
 .nav-header li{
     display: inline-block;
+    padding: 0 15px;
 }
 .nav-header li a{
-    color: #000;
+    color: #fff;
     padding: 10px 10px;
-    border: 1px solid #000;
+    border: 1px solid #fff;
 }
 .left-logo{
     float: left;
@@ -463,13 +466,17 @@ ul.social_media li a .fa {
 .right-logo{
     float: right;
 }
+.right-logo img{
+  background: #ffffffd6;
+}
 .hamburger{
     font-size: 30px;
-    border: 1px solid #333;
+    border: 1px solid #fff;
     padding: 10px;
     cursor: pointer;
     float: right;
     display: none;
+    color: #fff;
 }
 .header-section:after{
     display: block;
@@ -574,12 +581,12 @@ ul.social_media li a .fa {
             right: 0;
         }
      .nav-header li a {
-    color: #000;
+    color: #fff;
     padding: 15px 10px;
     border: none;
     }
     .header-section{
-        background-color: #fff !important;
+        background-color: #000 !important;
     }
     
 }
