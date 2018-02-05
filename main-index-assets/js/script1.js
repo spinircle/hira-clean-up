@@ -53,10 +53,10 @@ $(document).ready(function(){
 
 	  	$(window).scroll(function() {
     if ($(window).scrollTop() > 100) {
-        	$(".header-section").css("background","#fff");
+        	$(".header-section").css("background","#000");
 	    }
 	    else {
-	        $(".header-section").css("background","#ffffff57");
+	        $(".header-section").css("background","#0101016e");
 	    }
 	});
 });
