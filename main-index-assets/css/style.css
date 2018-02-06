@@ -545,6 +545,7 @@ ul.social_media li a .fa {
     }
     .hamburger{
         display: block;
+        margin-left: 10px;
     }
     .nav-header li a {
     color: #fff;
