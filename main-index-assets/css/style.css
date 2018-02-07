@@ -9,6 +9,12 @@ body{
     /*background-image:  url(../images/bg-about.jpg) no-repeat top center;*/
 
 }
+
+html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
 section{
     background-color: #121212;
     color: #fff;
@@ -41,6 +47,7 @@ section p{
 .header-section{
     text-align: center;
 	position: fixed;
+    
   left: 0;
   right:0;
   top: 0;
