@@ -486,6 +486,7 @@ ul.social_media li a .fa {
 }
 .left-logo{
     float: left;
+    background-color: #ffffffd6;
 }
 .right-logo{
     float: right;
@@ -545,11 +546,11 @@ ul.social_media li a .fa {
 }
 @media only screen and (max-width: 1220px) {
     .nav-header{
-        margin-top: 75px;
+        /*margin-top: 75px;*/
         display: block;
         line-height: 25px;
         display:none;
-
+        padding-top: 66px;
     }
     .nav-header li{
         display: block;
