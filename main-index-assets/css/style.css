@@ -46,14 +46,14 @@ section p{
 }
 .header-section{
     text-align: center;
-	position: fixed;
+	position: absolute;
     
   left: 0;
   right:0;
   top: 0;
-  padding:15px;
+  /*padding:15px;*/
   z-index: 100;
-  background: #0101016e;
+  background: transparent;
   transition: 0.4s cubic-bezier(0.67, 0.35, 0, 0.24);
 }
 .overlay{
@@ -356,7 +356,7 @@ section p{
 .footer-content {
 	color: #fff;
 	background-color: #626465;
-	
+	padding-bottom: 8px;
 }
 .footer-content p a {
     color: #fff;
@@ -459,6 +459,7 @@ ul.social_media li a .fa {
     right: 5px;
     z-index: 100;
     border-radius: 30px;
+    margin-top: 70px;
 }
 .nav-header{
     list-style: none;

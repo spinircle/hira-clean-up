@@ -51,12 +51,12 @@ $(document).ready(function(){
 		$(".header-section").load("header.html"); 
 	  	$(".footer-content").load("footer.html");
 
-	  	$(window).scroll(function() {
-    if ($(window).scrollTop() > 100) {
-        	$(".header-section").css("background","#000");
-	    }
-	    else {
-	        $(".header-section").css("background","#0101016e");
-	    }
-	});
+	//   	$(window).scroll(function() {
+ //    if ($(window).scrollTop() > 100) {
+ //        	$(".header-section").css("background","#000");
+	//     }
+	//     else {
+	//         $(".header-section").css("background","transparent");
+	//     }
+	// });
 });

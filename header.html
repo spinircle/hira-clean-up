@@ -1,5 +1,7 @@
-	<div class="left-logo" >
-		<a href="#" id="hostname">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<section class="menu">
+	<div class="left-logo     hidden-lg ">
+		<a href="#" class="hostname">
 			<img src="https://cdn.getspini.com/hira-img/logo/hiranandani-parks.png">
 		</a>
 	</div>
@@ -22,7 +24,7 @@
 
       <li><a class="head8" href="contact-us.html">Contact Us</a></li>
     </ul>
-    <div class="right-logo">
+    <div class="right-logo  hidden-md hidden-lg hidden-sm">
 		<a href="http://www.hiranandanicommunities.com/"><img src="https://cdn.getspini.com/hira-img/logo/hira-communities.png" alt="hiranandanicommunities-logo"></a>
 	</div>
 	<!-- book plot menu -->
@@ -63,6 +65,9 @@
 	  	$("#hostname").click(function(){
 	  		$("#hostname").attr("href", window.location.origin);
 	  	});
+	  	$(".hostname").click(function(){
+	  		$(".hostname").attr("href", window.location.origin);
+	  	});
 	  	
 	  	// debugger
 	  	var view_count;
@@ -84,3 +89,27 @@
 	  	
 
 	</script>
+
+
+</section>
+
+	<section  class="logo hidden-xs hidden-sm hidden-md " style="background-color: transparent;margin-top:-50px;    padding-left: 50px; ">
+ <div class="container-fluid">
+
+ 	<div class="left-logo" >
+		<a href="" id="hostname" style="display: inline-block;">
+			<img style="float: left;" src="https://cdn.getspini.com/hira-img/logo/hparks-logo-t.png">
+		</a>
+	</div>
+ 	<div class="right-logo">
+		<a href="http://www.hiranandanicommunities.com/"><img style="float: right;margin-right: 40px;" src="https://cdn.getspini.com/hira-img/logo/hcom-logo-t.png" alt="hiranandanicommunities-logo"></a>
+	</div>
+
+   <!-- <div>
+     <img style="float: left;" src="https://cdn.getspini.com/hira-img/logo/hparks-logo-t.png">
+   </div>
+   <div>
+     <img style="float: right;" src="https://cdn.getspini.com/hira-img/logo/hcom-logo-t.png">
+   </div> -->
+ </div>
+</section>
