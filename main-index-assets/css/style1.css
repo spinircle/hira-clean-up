@@ -30,7 +30,7 @@ section p{
     margin-left: auto;
 }
 #hostname img {
-  background: #ffffffd6;
+  /*background: #ffffffd6;*/
 }
 .navbar-default{
 	background-color: #fff;
@@ -184,8 +184,8 @@ section p{
 	background-repeat: no-repeat;
 	text-shadow: none;
 }
-.carousel-control.left span {margin-left: 50px;}
-.carousel-control.right span {margin-right: 50px;}
+.carousel-control.left span {margin-left: 40px;}
+.carousel-control.right span {margin-right: 40px;}
 .carousel-control .glyphicon-chevron-left, 
 .carousel-control .glyphicon-chevron-right, 
 .carousel-control .icon-prev, 
@@ -459,7 +459,7 @@ ul.social_media li a .fa {
     right: 5px;
     z-index: 100;
     border-radius: 30px;
-    margin-top: 70px;
+    margin-top: 10px;
 }
 .nav-header{
     list-style: none;
@@ -486,13 +486,13 @@ ul.social_media li a .fa {
 }
 .left-logo{
     float: left;
-    background-color: #ffffffd6;
+    background-color: #ffffff5e;
 }
 .right-logo{
     float: right;
 }
 .right-logo img{
-  background: #ffffffd6;
+  background: #ffffff6e;
 }
 .hamburger{
     font-size: 30px;
@@ -531,7 +531,7 @@ ul.social_media li a .fa {
     padding: 13px;
     background: #f4ad41;
     position: fixed;
-    top: 37%;
+    top: 35%;
     cursor: pointer;
 }
 .call-us i{
@@ -568,6 +568,9 @@ ul.social_media li a .fa {
     color: #fff;
     padding: 15px 10px;
     border: none;
+    }
+    .header-section{
+        background-color: #121212;
     }
     
 }
