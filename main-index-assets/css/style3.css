@@ -23,6 +23,12 @@ section{
 section p{
     font-size: 17px;
 }
+
+
+.menu{
+    background-color: #fff;
+    padding-top: 20px;
+}
 .container-fluid {
     padding-right: 0px !important;
     padding-left: 0px !important;
@@ -474,7 +480,7 @@ ul.social_media li a .fa {
     /*padding: 0 5px;*/
 }
 .nav-header li a{
-    color: #fff;
+    color: #121212;
     padding: 0 10px;
     border-right: 2px solid #fff;
 }
@@ -486,13 +492,13 @@ ul.social_media li a .fa {
 }
 .left-logo{
     float: left;
-    background-color: #ffffff5e;
+    background-color: #ffffffab;
 }
 .right-logo{
     float: right;
 }
 .right-logo img{
-  background: #ffffff6e;
+  background: #ffffffab;
 }
 .hamburger{
     font-size: 30px;
