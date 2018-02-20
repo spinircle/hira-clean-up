@@ -516,7 +516,7 @@ ul.social_media li a .fa {
 .enquire-now{
     background: #f4ad41;
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: -42px;
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
@@ -536,7 +536,7 @@ ul.social_media li a .fa {
     padding: 13px;
     background: #f4ad41;
     position: fixed;
-    top: 35%;
+    top: 25%;
     cursor: pointer;
 }
 .call-us i{
