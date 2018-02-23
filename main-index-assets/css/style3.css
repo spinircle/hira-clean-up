@@ -553,6 +553,10 @@ ul.social_media li a .fa {
     color: #fff;
     padding-left: 10px;
 }
+
+.caroseo-align div img{
+    height: 267px !important;
+  }
 @media only screen and (max-width: 1220px) {
     .nav-header{
         /*margin-top: 75px;*/
@@ -623,7 +627,7 @@ ul.social_media li a .fa {
           margin: 50px 0;
          }
          .enquire-now{
-            right: -38px;
+            right: -42px;
             left: unset;
         }
         .call-us{
