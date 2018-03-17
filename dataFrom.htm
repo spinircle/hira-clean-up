@@ -1,5 +1,6 @@
 <html>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 	window.onload = function() {
 		var d = new Date().getTime();
@@ -33,7 +34,7 @@
 					<td>Currency	:</td><td><input type="text" name="currency" value="INR"/></td>
 				</tr>
 				<tr>
-					<td>Redirect URL	:</td><td><input type="text" name="redirect_url" value="http://localhost/ccavResponseHandler.php"/></td>
+					<td>Redirect URL	:</td><td><input type="text" name="redirect_url" value="http://localhost:8080/interiors/interiors.html"/></td>
 				</tr>
 			 	<tr>
 			 		<td>Cancel URL	:</td><td><input type="text" name="cancel_url" value="http://localhost/ccavResponseHandler.php"/></td>
@@ -206,7 +207,7 @@
 <!-- <script language="javascript" type="text/javascript" src="json.js"></script>-->
 <!-- <script src="jquery-1.7.2.min.js"></script>-->
  <script language="javascript" type="text/javascript" src="json.js"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
 <script type="text/javascript">
   $(function(){
   
@@ -219,12 +220,12 @@
 	 	6)error -  This parameter will enable you to troubleshoot any configuration related issues. It will provide error description.
 	 */	  
   	  var jsonData;
-  	  var access_code="" // shared by CCAVENUE 
+  	  var access_code="AVJW01FC55BA81WJAB" // shared by CCAVENUE 
 	  var amount="6000.00";
   	  var currency="INR";
   	  
       $.ajax({
-           url:'https://secure.ccavenue.com/transaction/transaction.do?command=getJsonData&access_code='+access_code+'&currency='+currency+'&amount='+amount,
+           url:'https://test.ccavenue.com/transaction/transaction.do?command=getJsonData&access_code='+access_code+'&currency='+currency+'&amount='+amount,
            dataType: 'jsonp',
            jsonp: false,
            jsonpCallback: 'processData',
